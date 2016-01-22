@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="gb2312">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+<link type="text/css" rel="stylesheet" href="css/nywy.css" />
+<script src="js/wap_jquery.js" type="text/javascript"></script>
+</head>
+<body>
+	<div class="box">
+    	<div class="head">
+        	<a href="#"><span><img src="image/return.png"></span></a>
+			<h3>我的绝活</h3>
+        </div>
+        
+        
+		<form class="form_bd">
+			<div class="bd_1">
+				<label for="exampleInputEmail1">用药方式：</label>
+                <input type="radio" value=""  name="radio"/>单人用药防治 <input type="radio" value=""  name="radio"/>混合用药防治
+			</div>
+            <div class="bd_2">
+				<label for="exampleInputEmail1">成分名称：</label>
+                <input name="" type="text" class="tf_name" value="例:苯醚甲环锉" />
+                <label for="exampleInputEmail1" class="tf_jj">含量：</label>
+                <input name="" type="text" class="tf_name" value="例:20%" /><br />
+                <label for="exampleInputEmail1">稀释倍数：</label>
+                <input name="" type="text" class="tf_name tf_wid" value="例:500倍-1000倍" />
+			</div> 
+            <div class="bd_2">
+				<label for="exampleInputEmail1">成分名称：</label>
+                <input name="" type="text" class="tf_name" value="例:苯醚甲环锉" />
+                <label for="exampleInputEmail1" class="tf_jj">含量：</label>
+                <input name="" type="text" class="tf_name" value="例:20%" /><br />
+                <label for="exampleInputEmail1">稀释倍数：</label>
+                <input name="" type="text" class="tf_name tf_wid" value="例:500倍-1000倍" /><b style="float:right;  padding-right:8px; color:#F00;">删除</b>
+			</div>   
+            <div style="height:30px; text-align:center; padding-top:10px;"><a href="#">+ 继续添加药剂</a></div>
+            <div class="bd_2 bd_3">
+				<label for="exampleInputEmail1">防治对象：</label>
+                <textarea class="textarea_1"></textarea>
+			</div>
+            <div class="bd_2 bd_4">
+				<label for="exampleInputEmail1">适宜区域：</label>
+                <select name="">
+                	<option>选择区域</option>
+                    <option>北京</option>
+                    <option>河南</option>
+                    <option>河北</option>
+                    <option>石家庄</option>
+                    <option>天津</option>
+                </select>
+			</div>
+            <div class="bd_2">
+            	<p class="tgxx">提供信息</p>
+				<label for="exampleInputEmail1">单位名称：</label>
+                <input name="" type="text" class="tg" /><br />
+                <label for="exampleInputEmail1">姓名：</label>
+                <input name="" type="text" class="tg" /><br />
+                <label for="exampleInputEmail1">电话：</label>
+                <input name="" type="text" class="tg" />
+			</div> 
+            <button type="submit" class="login_btn red">提交我的绝活</button>
+        </form>
+        
+        <div style="min-height:70px;"></div>
+    
+            
+        
+        
+
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+</body>
+</html>

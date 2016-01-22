@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0, width=device-width">
+<title>农医问药app-发现</title>
+<link type="text/css" rel="stylesheet" href="css/nywy.css" />
+</head>
+
+<body>
+	<div class="box">
+    	<div class="head">
+        	<a href="#"><span><img src="image/return.png"></span></a>
+			<h3>发现</h3>
+        </div>
+        
+        <div class="found">
+            <div class="my_order">
+                <a href="#">
+                    <div>
+                        <img src="image/member_tb10.png" class="my_o_img">
+                        <p class="my_o_text"><span><img src="image/jiantou.png" class="jt"></span>田园圈</p>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="my_order">
+                <a href="#">
+                    <div class="bot">
+                        <img src="image/member_tb11.png" class="my_o_img">
+                        <p class="my_o_text"><span><img src="image/jiantou.png" class="jt"></span>邀请好友</p>
+                    </div>
+                </a>
+                    <div>
+                        <img src="image/member_tb12.png" class="my_o_img">
+                        <p class="my_o_text"><span><img src="image/jiantou.png" class="jt"></span>积分商城</p>
+                    </div>
+                </a>
+            </div>
+            
+
+        <div style="min-height:70px;"></div>
+      
+      <div class="foot">
+        	<div class="footer">
+                <ul>
+                    <a href="#"><li><img alt="首页" src="image/main.png"></li></a>
+                    <a href="#"><li><img src="image/infor.png"></li></a>
+                    <a href="#"><li><img src="image/answer.png"></li></a>
+                    <a href="#"><li><img src="image/found_on.png"></li></a>
+                    <a href="#"><li><img src="image/mine.png"></li></a>
+                </ul>
+            </div>
+        </div>
+
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+</body>
+</html>
