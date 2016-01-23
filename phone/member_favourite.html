@@ -3,43 +3,61 @@
 <head>
 <meta charset="gb2312">
 <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-<link type="text/css" rel="stylesheet" href="css/nywy.css" />
+<link type="text/css" rel="stylesheet" href="css/main.css" />
 <script src="js/wap_jquery.js" type="text/javascript"></script>
+<script src="js/common.js" type="text/javascript"></script>
 </head>
 <body>
 	<div class="box">
     	<div class="head">
-        	<a href="#"><span><img src="image/return.png"></span></a>
+        	<a href="javascript:history.go(-1);"><span><img src="image/return.png"></span></a>
 			<h3>我的收藏</h3>
         </div>
         
         <div style="margin-top:45px;">
             <ul class="new">
-                <a href="#"><li class="underline">提问收藏</li></a>
-                <a href="#"><li>文章收藏</li></a>
+                <li id="one1" onmouseover="setTab('one',1,2)" class="hover">提问收藏</li>
+                <li id="one2" onmouseover="setTab('one',2,2)">文章收藏</li>
                 <div class="clear"></div>
             </ul>
         </div>
         
-        <div class="search_list">
-        	<a href="#">
-  			<ul>
-                <li class="sear_p">小麦田用草药二钾四氯钠，麦田旁边种有莴苣有没有影响？</li>
-            	<li class="sear_t"><img src="image/defaultx20.jpg" class="tx" /><span>阿涛fsgweg</span><img src="image/tb03.png" class="sear_icon" /><span>23分钟前</span><b>已回答(2)</b></li>
-            </ul>
-            </a>
-        	<div class="clear"></div>
+        <div class="Contentbox">
+            <div id="con_one_1" class="hover">
+                <div class="search_list">
+                	<a href="#">
+          			<ul>
+                        <li class="sear_p">小麦田用草药二钾四氯钠，麦田旁边种有莴苣有没有影响？</li>
+                    	<li class="sear_t"><img src="image/defaultx20.jpg" class="tx" /><span>阿涛fsgweg</span><img src="image/tb03.png" class="sear_icon" /><span>23分钟前</span><b>已回答(2)</b></li>
+                    </ul>
+                    </a>
+                	<div class="clear"></div>
+                </div>
+                
+                <div class="search_list">
+                	<a href="#">
+          			<ul>
+                        <li class="sear_p">小麦田用草药二钾四氯钠，麦田旁边种有莴苣有没有影响？</li>
+                    	<li class="sear_t"><img src="image/defaultx20.jpg" class="tx" /><span>阿涛fsgweg</span><img src="image/tb03.png" class="sear_icon" /><span>23分钟前</span><b>已回答(2)</b></li>
+                    </ul>
+                    </a>
+                	<div class="clear"></div>
+                </div>
+            </div>
+            
+            <div id="con_one_2" class="hidden">
+                <div class="search_list">
+                    <a href="#">
+                    <ul>
+                        <li class="sear_p">小麦田用草药二钾四氯钠，麦田旁边种有莴苣有没有影响？</li>
+                        <li class="sear_t"><img src="image/defaultx20.jpg" class="tx" /><span>阿涛fsgweg</span><img src="image/tb03.png" class="sear_icon" /><span>23分钟前</span><b>已回答(2)</b></li>
+                    </ul>
+                    </a>
+                    <div class="clear"></div>
+                </div>
+            </div>
         </div>
         
-        <div class="search_list">
-        	<a href="#">
-  			<ul>
-                <li class="sear_p">小麦田用草药二钾四氯钠，麦田旁边种有莴苣有没有影响？</li>
-            	<li class="sear_t"><img src="image/defaultx20.jpg" class="tx" /><span>阿涛fsgweg</span><img src="image/tb03.png" class="sear_icon" /><span>23分钟前</span><b>已回答(2)</b></li>
-            </ul>
-            </a>
-        	<div class="clear"></div>
-        </div>
     </div>
 </body>
 </html>

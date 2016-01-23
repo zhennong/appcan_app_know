@@ -226,8 +226,8 @@ textarea{ width:90%; margin:10px 10px 10px 10px; height:!important; height:80px;
 .detail a{ color:#F00;}
 
 .new{background:#FFF; padding:10px 10px 0 10px; line-height:22px; margin-top:10px; font-size:14px; margin-bottom:10px;}
-.new li{ float:left; width:50%; text-align:center; line-height:26px; padding-bottom:10px;}
-.underline{ border-bottom:2px solid #fa5050; color:#fa5050;}
+.new li{ float:left; width:50%; text-align:center; line-height:26px; padding-bottom:10px;cursor: pointer;}
+.new li.hover{ border-bottom:2px solid #fa5050; color:#fa5050;}
 
 .symptoms{ background:#FFF; border-top:1px solid #d9d8d8;}
 .symptoms_title{background:url(../image/answer_bj.png) 10px 10px no-repeat; height:29px; padding:0 0 20px 30px; line-height:46px; font-size:16px; border-bottom:1px solid #d9d8d8;}
@@ -470,7 +470,8 @@ textarea{ width:90%; margin:10px 10px 10px 10px; height:!important; height:80px;
 .pres_txt{ padding:5px 10px; line-height:24px;}
 .pres_b a{ width:33%; display:block; float:left; text-align:center; border-right:1px solid #d9d8d8; cursor:pointer;}
 .informa{background:#FFF; padding:10px 10px 0 10px; line-height:22px; margin-top:10px; font-size:14px;}
-.informa li{ float:left; width:20%; text-align:center; line-height:26px; padding-bottom:10px;}
+.informa li{ float:left; width:20%; text-align:center; line-height:26px; padding-bottom:10px;cursor: pointer;}
+.informa li.hover{border-bottom:2px solid #fa5050; color:#fa5050;}
 
 .foot_share{ position:fixed; max-width:640px;min-width:320px; bottom:0; background:#e15061; width:100%;z-index:9999999;}
 .foot_share ul li{ float:left; line-height:20px; color:#FFF; text-align:center; border-right:2px solid #fff; margin:10px 0; font-size:18px;}
