@@ -9,6 +9,7 @@
     <script>
         $(document).ready(function () {
             $("button.login_btn").click(function(){
+                var problemDescription = $("textarea.textarea").val();
                 $.ajax({});
             })
         });
@@ -24,7 +25,7 @@
     <div class="quick">
         <center><img src="image/tb06.png"/></center>
         <center style="line-height:36px; font-size:14px;">快速提问</center>
-        <textarea class="textarea">请输入您的问题，并详细描述...</textarea>
+        <textarea class="textarea" placeholder="请输入您的问题，并详细描述..."></textarea>
         <button class="login_btn">提交问题</button>
     </div>
 </div>
