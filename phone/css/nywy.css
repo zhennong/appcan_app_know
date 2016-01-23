@@ -102,7 +102,9 @@ textarea{ width:90%; margin:10px 10px 10px 10px; height:!important; height:80px;
 .list_nav{ border:2px solid #e54040; line-height:45px; width:90%; border-radius:5px; margin:0 0 0 15px; font-size:16px; font-weight:bold;}
 .list_nav a{ cursor:pointer;}
 .list_bj{ background:#e54040; color:#FFF;}
-.list_nav li{ width:50%; float:left; text-align:center;}
+.list_nav li{ width:50%; float:left; text-align:center;cursor:pointer;}
+.list_nav li.hover{background:#e54040; color:#FFF;}
+
 .ans_list{background:#FFF; border-bottom:1px solid #d9d8d8; border-top:1px solid #d9d8d8; margin-top:10px; padding-bottom:8px;}
 .ans_list ul li{ font-size:14px; clear:both;}
 .ans_p{ line-height:22px; padding:8px 10px; border-bottom:1px dashed #d9d8d8;}
