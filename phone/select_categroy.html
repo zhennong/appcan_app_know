@@ -3,8 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-<link type="text/css" rel="stylesheet" href="css/nywy.css" />
+<link type="text/css" rel="stylesheet" href="css/main.css" />
 <script src="js/wap_jquery.js" type="text/javascript"></script>
+<script src="js/common.js" type="text/javascript"></script>
 </head>
 <body>
 	<div class="box">
@@ -15,80 +16,105 @@
         
         <div class="ans_nav">
         	<ul class="list_nav">
-            	<a><li class="list_bj">按作物</li></a>
-                <a><li>我的回答</li></a>
+				<li id="one1" onmouseover="setTab('one',1,2)" class="hover">按作物</li>
+                <li id="one2" onmouseover="setTab('one',2,2)">我的回答</li>
                 <div class="clear"></div>
             </ul> 
         </div>
         <div class="select_crop_list">
-            <div class="select_crop">
-                <p class="select_crop_t">杀虫剂</p>
-                <ul>
-                    <a href="#"><li> <img src="image/class_tp3.png" class="select_crop_icon">图文详情 </li></a>
-                    <a href="#"><li><img src="image/class_tp4.png" class="select_crop_icon">植保方案</li></a>
-                    <a href="#"><li><img src="image/class_tp3.png" class="select_crop_icon">番茄专区</li></a>
-                    <a href="#"><li><img src="image/class_tp4.png" class="select_crop_icon">黄瓜专区</li></a>
-                    <a href="#"><li><img src="image/class_tp4.png" class="select_crop_icon">更多专区</li></a>
-                    <a href="#"><li> <img src="image/class_tp3.png" class="select_crop_icon">图文详情 </li></a>
-                    <a href="#"><li><img src="image/class_tp4.png" class="select_crop_icon">植保方案</li></a>
-                    <a href="#"><li><img src="image/class_tp3.png" class="select_crop_icon">番茄专区</li></a>
-                    <a href="#"><li><img src="image/class_tp4.png" class="select_crop_icon">黄瓜专区</li></a>
-                    <a href="#"><li><img src="image/class_tp4.png" class="select_crop_icon">更多专区</li></a>
-                </ul>
-                <div class="clear"></div>
-            </div>
+			<div class="Contentbox">
+				<div id="con_one_1" class="hover">
+		
+					<div class="select_crop">
+						<p class="select_crop_t">杀虫剂</p>
+						<ul>
+							<a href="#"><li> <img src="image/class_tp3.png" class="select_crop_icon">图文详情 </li></a>
+							<a href="#"><li><img src="image/class_tp4.png" class="select_crop_icon">植保方案</li></a>
+							<a href="#"><li><img src="image/class_tp3.png" class="select_crop_icon">番茄专区</li></a>
+							<a href="#"><li><img src="image/class_tp4.png" class="select_crop_icon">黄瓜专区</li></a>
+							<a href="#"><li><img src="image/class_tp4.png" class="select_crop_icon">更多专区</li></a>
+							<a href="#"><li> <img src="image/class_tp3.png" class="select_crop_icon">图文详情 </li></a>
+							<a href="#"><li><img src="image/class_tp4.png" class="select_crop_icon">植保方案</li></a>
+							<a href="#"><li><img src="image/class_tp3.png" class="select_crop_icon">番茄专区</li></a>
+							<a href="#"><li><img src="image/class_tp4.png" class="select_crop_icon">黄瓜专区</li></a>
+							<a href="#"><li><img src="image/class_tp4.png" class="select_crop_icon">更多专区</li></a>
+						</ul>
+						<div class="clear"></div>
+					</div>
             
-            <div class="select_crop">
-                <p class="select_crop_t">杀菌剂</p>
-                <ul>
-                    <a href="#"><li> <img src="image/class_tp3.png" class="select_crop_icon">图文详情 </li></a>
-                    <a href="#"><li><img src="image/class_tp4.png" class="select_crop_icon">植保方案</li></a>
-                    <a href="#"><li><img src="image/class_tp3.png" class="select_crop_icon">番茄专区</li></a>
-                    <a href="#"><li><img src="image/class_tp4.png" class="select_crop_icon">黄瓜专区</li></a>
-                    <a href="#"><li><img src="image/class_tp4.png" class="select_crop_icon">更多专区</li></a>
-                    <a href="#"><li> <img src="image/class_tp3.png" class="select_crop_icon">图文详情 </li></a>
-                    <a href="#"><li><img src="image/class_tp4.png" class="select_crop_icon">植保方案</li></a>
-                    <a href="#"><li><img src="image/class_tp3.png" class="select_crop_icon">番茄专区</li></a>
-                    <a href="#"><li><img src="image/class_tp4.png" class="select_crop_icon">黄瓜专区</li></a>
-                    <a href="#"><li><img src="image/class_tp4.png" class="select_crop_icon">更多专区</li></a>
-                </ul>
-                <div class="clear"></div>
-            </div>
+					<div class="select_crop">
+						<p class="select_crop_t">杀菌剂</p>
+						<ul>
+							<a href="#"><li> <img src="image/class_tp3.png" class="select_crop_icon">图文详情 </li></a>
+							<a href="#"><li><img src="image/class_tp4.png" class="select_crop_icon">植保方案</li></a>
+							<a href="#"><li><img src="image/class_tp3.png" class="select_crop_icon">番茄专区</li></a>
+							<a href="#"><li><img src="image/class_tp4.png" class="select_crop_icon">黄瓜专区</li></a>
+							<a href="#"><li><img src="image/class_tp4.png" class="select_crop_icon">更多专区</li></a>
+							<a href="#"><li> <img src="image/class_tp3.png" class="select_crop_icon">图文详情 </li></a>
+							<a href="#"><li><img src="image/class_tp4.png" class="select_crop_icon">植保方案</li></a>
+							<a href="#"><li><img src="image/class_tp3.png" class="select_crop_icon">番茄专区</li></a>
+							<a href="#"><li><img src="image/class_tp4.png" class="select_crop_icon">黄瓜专区</li></a>
+							<a href="#"><li><img src="image/class_tp4.png" class="select_crop_icon">更多专区</li></a>
+						</ul>
+						<div class="clear"></div>
+					</div>
             
-            <div class="select_crop">
-                <p class="select_crop_t">除草剂</p>
-                <ul>
-                    <a href="#"><li> <img src="image/class_tp3.png" class="select_crop_icon">图文详情 </li></a>
-                    <a href="#"><li><img src="image/class_tp4.png" class="select_crop_icon">植保方案</li></a>
-                    <a href="#"><li><img src="image/class_tp3.png" class="select_crop_icon">番茄专区</li></a>
-                    <a href="#"><li><img src="image/class_tp4.png" class="select_crop_icon">黄瓜专区</li></a>
-                    <a href="#"><li><img src="image/class_tp4.png" class="select_crop_icon">更多专区</li></a>
-                </ul>
-                <div class="clear"></div>
-            </div>
-            
-            <div class="select_crop">
-                <p class="select_crop_t">杀螨剂</p>
-                <ul>
-                    <a href="#"><li> <img src="image/class_tp3.png" class="select_crop_icon">图文详情 </li></a>
-                    <a href="#"><li><img src="image/class_tp4.png" class="select_crop_icon">植保方案</li></a>
-                    <a href="#"><li><img src="image/class_tp3.png" class="select_crop_icon">番茄专区</li></a>
-                    <a href="#"><li><img src="image/class_tp4.png" class="select_crop_icon">黄瓜专区</li></a>
-                    <a href="#"><li><img src="image/class_tp4.png" class="select_crop_icon">更多专区</li></a>
-                </ul>
-                <div class="clear"></div>
-            </div>
-            <div class="select_crop">
-                <p class="select_crop_t">其他作物</p>
-                <ul>
-                    <a href="#"><li> <img src="image/class_tp1.png" class="select_crop_icon">图文详情 </li></a>
-                    <a href="#"><li><img src="image/class_tp2.png" class="select_crop_icon">植保方案</li></a>
-                    <a href="#"><li><img src="image/class_tp1.png" class="select_crop_icon">番茄专区</li></a>
-                    <a href="#"><li><img src="image/class_tp2.png" class="select_crop_icon">黄瓜专区</li></a>
-                    <a href="#"><li><img src="image/class_tp1.png" class="select_crop_icon">更多专区</li></a>
-                </ul>
-                <div class="clear"></div>
-            </div>
+					<div class="select_crop">
+						<p class="select_crop_t">除草剂</p>
+						<ul>
+							<a href="#"><li> <img src="image/class_tp3.png" class="select_crop_icon">图文详情 </li></a>
+							<a href="#"><li><img src="image/class_tp4.png" class="select_crop_icon">植保方案</li></a>
+							<a href="#"><li><img src="image/class_tp3.png" class="select_crop_icon">番茄专区</li></a>
+							<a href="#"><li><img src="image/class_tp4.png" class="select_crop_icon">黄瓜专区</li></a>
+							<a href="#"><li><img src="image/class_tp4.png" class="select_crop_icon">更多专区</li></a>
+						</ul>
+						<div class="clear"></div>
+					</div>
+					
+					<div class="select_crop">
+						<p class="select_crop_t">杀螨剂</p>
+						<ul>
+							<a href="#"><li> <img src="image/class_tp3.png" class="select_crop_icon">图文详情 </li></a>
+							<a href="#"><li><img src="image/class_tp4.png" class="select_crop_icon">植保方案</li></a>
+							<a href="#"><li><img src="image/class_tp3.png" class="select_crop_icon">番茄专区</li></a>
+							<a href="#"><li><img src="image/class_tp4.png" class="select_crop_icon">黄瓜专区</li></a>
+							<a href="#"><li><img src="image/class_tp4.png" class="select_crop_icon">更多专区</li></a>
+						</ul>
+						<div class="clear"></div>
+					</div>
+					<div class="select_crop">
+						<p class="select_crop_t">其他作物</p>
+						<ul>
+							<a href="#"><li> <img src="image/class_tp1.png" class="select_crop_icon">图文详情 </li></a>
+							<a href="#"><li><img src="image/class_tp2.png" class="select_crop_icon">植保方案</li></a>
+							<a href="#"><li><img src="image/class_tp1.png" class="select_crop_icon">番茄专区</li></a>
+							<a href="#"><li><img src="image/class_tp2.png" class="select_crop_icon">黄瓜专区</li></a>
+							<a href="#"><li><img src="image/class_tp1.png" class="select_crop_icon">更多专区</li></a>
+						</ul>
+						<div class="clear"></div>
+					</div>
+				</div>	
+			</div>
+			
+			<div id="con_one_2" class="hidden">		
+				<div class="select_crop">
+					<p class="select_crop_t">杀虫剂</p>
+					<ul>
+						<a href="#"><li> <img src="image/class_tp3.png" class="select_crop_icon">图文详情 </li></a>
+						<a href="#"><li><img src="image/class_tp4.png" class="select_crop_icon">植保方案</li></a>
+						<a href="#"><li><img src="image/class_tp3.png" class="select_crop_icon">番茄专区</li></a>
+						<a href="#"><li><img src="image/class_tp4.png" class="select_crop_icon">黄瓜专区</li></a>
+						<a href="#"><li><img src="image/class_tp4.png" class="select_crop_icon">更多专区</li></a>
+						<a href="#"><li> <img src="image/class_tp3.png" class="select_crop_icon">图文详情 </li></a>
+						<a href="#"><li><img src="image/class_tp4.png" class="select_crop_icon">植保方案</li></a>
+						<a href="#"><li><img src="image/class_tp3.png" class="select_crop_icon">番茄专区</li></a>
+						<a href="#"><li><img src="image/class_tp4.png" class="select_crop_icon">黄瓜专区</li></a>
+						<a href="#"><li><img src="image/class_tp4.png" class="select_crop_icon">更多专区</li></a>
+					</ul>
+					<div class="clear"></div>
+				</div>
+			</div>
+			
         </div>
     </div>
 </body>
