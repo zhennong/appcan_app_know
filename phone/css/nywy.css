@@ -36,7 +36,7 @@ p{padding:0; margin:0;}
 .question{background:#FFF; border-bottom:1px solid #d9d8d8; border-top:1px solid #d9d8d8; margin-top:10px; }
 .ques_title{ background:url(../image/tb01.png) 10px 14px no-repeat; line-height:48px; font-size:14px; padding-left:50px; border-bottom:1px solid #d9d8d8; }
 .question a{ width:90px; display:block; float:right; line-height:30px; background:#2c8b3c; border-radius:5px; color:#FFF; margin:10px; text-align:center; cursor:pointer;}
-textarea{ width:90%; margin:10px 10px 10px 10px; height:!important; height:80px; min-height:80px; line-height:22px; color:#999; padding-left:8px; border-radius:5px;}
+textarea{ width:90%; margin:10px 10px 10px 10px; height:!important; height:80px; min-height:80px; line-height:22px; padding-left:8px; border-radius:5px;}
 .ques_txt{ margin-bottom:10px;}
 .ques_txt img{ margin-left:10px;}
 .sub_btn{width:90px; display:block; float:right; line-height:30px; background:#2c8b3c; border-radius:5px; color:#FFF; text-align:center; border:0; margin-right:10px;}
