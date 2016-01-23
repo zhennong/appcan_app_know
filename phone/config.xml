@@ -12,8 +12,8 @@
 	<showmyspace>false</showmyspace>
 	<obfuscation>true</obfuscation>
 	<bgcolor>#fefefe</bgcolor>
-	<orientation>15</orientation>
-<debug/>
+	<orientation>1</orientation>
+<debug>false</debug>
 <partobfuscation/>
-<webapp/>
+<webapp>false</webapp>
 </widget>
