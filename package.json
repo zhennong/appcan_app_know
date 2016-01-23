@@ -1,0 +1,23 @@
+{
+  "name": "appcan_app_know",
+  "version": "1.0.0",
+  "description": "Agricultural medicine",
+  "main": "README.md",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhennong/appcan_app_know.git"
+  },
+  "keywords": [
+    "Agricultural",
+    "medicine",
+    "nongyao001"
+  ],
+  "author": "wodrow",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/zhennong/appcan_app_know/issues"
+  }
+}
