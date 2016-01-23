@@ -1,1 +1,1 @@
-# appcan_app_know(Agricultural medicine medicine)
+#appcan_app_know(Agricultural medicine) javascript 代码规范
