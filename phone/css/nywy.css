@@ -1,4 +1,4 @@
-@charset "gb2312";
+@charset "utf-8";
 /* CSS Document */
 
 *{ padding:0; margin:0;}
@@ -36,7 +36,7 @@ p{padding:0; margin:0;}
 .question{background:#FFF; border-bottom:1px solid #d9d8d8; border-top:1px solid #d9d8d8; margin-top:10px; }
 .ques_title{ background:url(../image/tb01.png) 10px 14px no-repeat; line-height:48px; font-size:14px; padding-left:50px; border-bottom:1px solid #d9d8d8; }
 .question a{ width:90px; display:block; float:right; line-height:30px; background:#2c8b3c; border-radius:5px; color:#FFF; margin:10px; text-align:center; cursor:pointer;}
-textarea{ width:90%; margin:10px 10px 10px 10px; height:!important; height:80px; min-height:80px; line-height:22px; padding-left:8px; border-radius:5px;}
+textarea{ width:90%; margin:10px 10px 10px 10px; height:80px !important; min-height:80px; line-height:22px; padding-left:8px; border-radius:5px;}
 .ques_txt{ margin-bottom:10px;}
 .ques_txt img{ margin-left:10px;}
 .sub_btn{width:90px; display:block; float:right; line-height:30px; background:#2c8b3c; border-radius:5px; color:#FFF; text-align:center; border:0; margin-right:10px;}
@@ -81,7 +81,7 @@ textarea{ width:90%; margin:10px 10px 10px 10px; height:!important; height:80px;
 
 /*quick_question*/
 .quick{ margin-top:65px;}
-.textarea{ width:90%; height:!important; height:150px; min-height:150px; line-height:24px; background:#FFF; border:2px solid #27ae60; border-radius:5px;}
+.textarea{ width:90%;height:150px !important; min-height:150px; line-height:24px; background:#FFF; border:2px solid #27ae60; border-radius:5px;}
 
 /*garden_like*/
 .garden{ background:#FFF;}
@@ -446,7 +446,7 @@ textarea{ width:90%; margin:10px 10px 10px 10px; height:!important; height:80px;
 
 .form_per{ padding-left:10px; line-height:36px;}
 .form_control{ border:0; line-height:24px; color:#999; width:70%;}
-.form_text{ width:90%; margin:3px 3px 10px 3px; height:!important; height:200px; min-height:200px; line-height:22px; color:#999; padding-left:8px; border-radius:5px;}
+.form_text{ width:90%; margin:3px 3px 10px 3px;height:200px !important; min-height:200px; line-height:22px; color:#999; padding-left:8px; border-radius:5px;}
 
 .hose{ background:#27ae60; height:300px;}
 .hose img{ padding-top:40px;}
