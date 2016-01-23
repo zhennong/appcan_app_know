@@ -1,1 +1,3 @@
-#appcan_app_know(Agricultural medicine) javascript 代码规范
+#appcan_app_know(Agricultural medicine) 编码规范
+
+utf-8编码
