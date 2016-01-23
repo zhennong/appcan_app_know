@@ -1,9 +1,13 @@
-//´¿¾²Ì¬tabÇÐ»»
-function setTab(name,cursel,n){
-    for(i=1;i<=n;i++){
-        var menu=document.getElementById(name+i);
-        var con=document.getElementById("con_"+name+"_"+i);
-        menu.className=i==cursel?"hover":"";
-        con.style.display=i==cursel?"block":"none";
+var Tools = {
+
+    //çº¯é™æ€tabåˆ‡æ¢
+    setTab:function(name,cursel,n){
+        for(i=1;i<=n;i++){
+            var menu=document.getElementById(name+i);
+            var con=document.getElementById("con_"+name+"_"+i);
+            menu.className=i==cursel?"hover":"";
+            con.style.display=i==cursel?"block":"none";
+        }
     }
+
 }
