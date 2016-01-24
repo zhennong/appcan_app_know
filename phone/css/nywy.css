@@ -67,14 +67,14 @@ textarea{ width:90%; margin:10px 10px 10px 10px; height:80px !important; min-hei
 .footer ul li{ float:left; margin-left:10px; width:17%; text-align:center}
 /*login*/
 .form_top{ margin-top:45px;}
-.login_txt{ width:90%; line-height:36px; border-radius:10px; border:1px solid #DED9D9; background:#FFF; margin:15px 0 0 10px; color:#c7c5c5; font-weight:bold; padding-left:10px;}
+.login_txt{ width:90%; line-height:36px; border-radius:10px; border:1px solid #DED9D9; background:#FFF; margin:15px 0 0 10px;  font-weight:bold; padding-left:10px;}
 .login_btn{ width:90%; line-height:36px; background:#27ae60; border:0; border-radius:10px; margin-top:15px; color:#FFF; font-weight:bold; font-size:16px; margin:15px 0 0 10px;}
 .gest{ border-top:1px solid #b6b6b6; margin:20px 20px 0 20px;}
 .gest_btn{ line-height:36px; border-radius:10px; background:#fc5757; color:#FFF; text-align:center; display:block; margin:30px 0 0 0; font-size:14px; cursor:pointer; font-weight:bold;}
 .forget_btn{ background:#FFF; border:2px solid #b6b6b6; color:#333; cursor:pointer;}
 
 /*register*/
-.login_code{width:42%; line-height:32px; border-radius:10px; border:1px solid #DED9D9; background:#FFF;  margin:15px 0 0 10px; color:#c7c5c5; font-weight:bold; padding-left:10px; float:left;}
+.login_code{width:42%; line-height:32px; border-radius:10px; border:1px solid #DED9D9; background:#FFF;  margin:15px 0 0 10px;  font-weight:bold; padding-left:10px; float:left;}
 .yzm{ width:42%; line-height:36px; border-radius:10px; background:#27ae60;  color:#FFF; font-weight:bold; font-size:14px; text-align:center; margin-left:15px; display:block; float:left; margin-top:15px; cursor:pointer;}
 .reg_ts{ padding:10px; font-size:14px;}
 .reg_ts b{ color:#F00;}
@@ -431,7 +431,7 @@ textarea{ width:90%; margin:10px 10px 10px 10px; height:80px !important; min-hei
 .query_bj{ background:#e54040; color:#FFF;}
 .query_list_nav li{ width:24%; float:left; text-align:center;}
 .query_r{ border-right:2px solid #e54040;}
-.query_txt{ width:90%; line-height:36px; border-radius:10px; border:2px solid #b6b6b6; background:#FFF; margin:15px 0 0 10px; color:#c7c5c5; font-weight:bold; padding-left:10px;}
+.query_txt{ width:90%; line-height:36px; border-radius:10px; border:2px solid #b6b6b6; background:#FFF; margin:15px 0 0 10px;  font-weight:bold; padding-left:10px;}
 .query_btn{ width:90%; line-height:36px; background:#27ae60; border:0; border-radius:10px; margin-top:15px; color:#FFF; font-weight:bold; font-size:16px; margin:15px 0 0 10px;}
 
 .query_top img{ margin-top:45px; width:100%; min-width:320px;  max-width:640px; position:relative;}

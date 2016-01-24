@@ -4,5 +4,6 @@
 var config = {
     alias:{
         APP_NAME : 'Agricultural medicine'
-    }
+    },
+    sourceUrl : "http://www.dt50.cn/touchknow/"
 };
