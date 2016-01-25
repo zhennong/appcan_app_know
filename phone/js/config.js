@@ -5,5 +5,6 @@ var config = {
     alias:{
         APP_NAME : 'Agricultural medicine'
     },
-    sourceUrl : "http://www.dt50.cn/touchknow/"
+    sourceUrl : "http://www.dt50.cn/touchknow/",
+    apiUrl : "http://www.dt50.cn/touchknow/api_app_know.php"
 };

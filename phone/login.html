@@ -22,14 +22,15 @@
 	        };
 	        $.ajax(  
                 {  
-                    type:'get',  
-                    url : config.sourceUrl + 'test.php?loginuser=lee&loginpass=123', 
+                    type:'post',  
+                    url : config.apiUrl, 
+                    data:{action:'login',mobile:mobile,password:password},
                     dataType : 'jsonp',  
                     jsonp:"jsoncallback",  
                     success  : function(msg) {  
-                        alert("用户名："+ msg.user +" 密码："+ msg.pass);  
+                        alert(msg.mobile);
                     },  
-                    error : function(msg) {  
+                    error : function() {  
                         alert('fail');  
                     }  
                 }  
@@ -50,7 +51,7 @@
                 <input name="mobile" type="text" maxlength="11"  class="login_txt" placeholder="请填写手机号码" />
             </div>
             <div>
-                <input name="password" type="text"  class="login_txt" placeholder="请填写密码"/>
+                <input name="password" type="password"  class="login_txt" placeholder="请填写密码"/>
             </div>
             <button class="login_btn">登录</button>
         </div>
