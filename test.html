@@ -6,20 +6,23 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="node_modules/jquery/dist/jquery.min.js"></script>
         <script>
-            $(function () {
-                $.ajax({
-                    type:'get',
-                    url:'http://localhost/app_know/Home/interface/test2.html',
-                    dataType:'jsonp',
-                    jsonp:"jsoncallback", 
-                    success:function(msg){
-                        alert(msg.user);
-                    },
-                    error:function(){
-                        alert('fail');
-                    }
-                });
-            });
+            $(function(){
+                $.ajax(  
+                    {  
+                        type:'get',  
+                        url : config.sourceUrl + 'test.php', 
+                        data:{loginuser:"lee",loginpass:123},
+                        dataType : 'jsonp',  
+                        jsonp:"jsoncallback",  
+                        success  : function(msg) {  
+                            alert("用户名："+ msg.user +" 密码："+ msg.pass);  
+                        },  
+                        error : function(msg) {  
+                            alert('fail');  
+                        }  
+                    }  
+                );
+            })
         </script>
     </head>
     <body>
