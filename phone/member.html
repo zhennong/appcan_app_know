@@ -5,6 +5,15 @@
 <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 <link type="text/css" rel="stylesheet" href="css/nywy.css" />
 <script src="js/wap_jquery.js" type="text/javascript"></script>
+<script src="js/appcan.js" type="text/javascript"></script>
+<script src="js/common.js" type="text/javascript"></script>
+<script type="text/javascript">
+Tools.getUserId(); //获取用户登录状态
+$(function(){
+    Tools.getUserName();
+})
+
+</script>
 </head>
 <body>
 	<div class="box">
@@ -15,7 +24,7 @@
         
         <div class="member_top">
         	<img src="image/default.jpg" height="60" class="member_tx">
-            <p class="name"><span><a href="#"><img  src="image/erweima.png" class="ewm"/></a></span>hihjih   李女士<br>河南郑州金水区<br>邀请码YYY</p>
+            <p class="name"><span><a href="#"><img  src="image/erweima.png" class="ewm"/></a></span><font id="username"></font><br>河南郑州金水区<br>邀请码YYY</p>
             <ul class="mem_gz">
             	<a>
                 <li>
@@ -112,14 +121,14 @@
                 </div>
             </a>
         </div>
-         <a href="#" class="gest_btn green">退出登录</a>
+          <a href="javascript:void(0)" class="gest_btn green" onclick="javascript:Tools.logout();">退出登录</a>
         <div style="min-height:70px;"></div>
       <div class="foot">
             <div class="footer">
                 <ul>
-                    <a href="index.html"><li><img alt="首页" src="image/main.png"></li></a>
-                    <a href="questions_index.html"><li><img src="image/answer.png"></li></a>   
-                    <a href="member.html"><li><img src="image/mine_on.png"></li></a>
+                    <li><a href="index.html"><img alt="首页" src="image/main.png"></a></li>
+                    <li><a href="questions_index.html"><img src="image/answer.png"></a></li>   
+                    <li><a href="member.html"><img src="image/mine_on.png"></a></li>
                 </ul>
             </div>
         </div>

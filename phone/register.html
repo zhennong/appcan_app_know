@@ -48,7 +48,10 @@
                             jsonp:"jsoncallback",  
                             success  : function(msg) {  
                                 if(msg.status==200){
-                                    alert("短信已经发出，请及时查收");
+                                    alert('注册成功');
+                                    appcan.locStorage.setVal('userid',msg.member_info['0']['userid']);   
+                                    appcan.locStorage.setVal('username',msg.member_info['0']['mobile']); 
+                                    location.href = './member.html';
                                 }else{
                                     alert(msg.msg);
                                 }

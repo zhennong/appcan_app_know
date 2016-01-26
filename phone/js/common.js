@@ -44,5 +44,42 @@ var Tools = {
         var div = document.createElement("div");
         div.innerHTML = str;
         return div.innerHTML;
+    },
+    
+    /**
+     * 获取登录用户状态
+     */
+    getUserId: function(){
+	var userid = appcan.locStorage.getVal('userid');   
+	if(userid == null){
+	    alert('对不起，你还没有登录！');
+	    location.href = './login.html';
+	}
+    },
+    
+    /**
+     * 获取登录用户名
+     * 格式：<font id="username"></font>
+     */
+    getUserName: function(){
+	var username = appcan.locStorage.getVal('username');             
+	if(username != null){
+	    $("#username").html(username);
+	}
+    },
+    
+    /**
+     * 退出当前登录用户
+     * @returns {undefined}
+     */
+    logout: function(){
+	var userid = appcan.locStorage.getVal('userid');   
+	if(userid != null){
+	    appcan.locStorage.remove('userid');   
+	    appcan.locStorage.remove('username');   
+	    alert('退出登录成功！');
+	    location.href = './index.html';
+	}
     }
+    
 }
