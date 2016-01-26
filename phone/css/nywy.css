@@ -451,7 +451,7 @@ textarea{ width:90%; margin:10px 10px 10px 10px; height:80px !important; min-hei
 .hose{ background:#27ae60; height:300px;}
 .hose img{ padding-top:40px;}
 
-.hose_list ul li{ float:left; width:33%; border-bottom:1px solid #d9d8d8; border-right:1px solid #d9d8d8; text-align:center; padding-bottom:10px; font-size:16px;}
+.hose_list ul li{ float:left; width:33%; border-bottom:1px solid #d9d8d8; border-right:1px solid #d9d8d8; text-align:center; padding-bottom:10px; font-size:16px;text-align:center;}
 .hose_list ul li img{ width:80%; padding:15px 10px 10px 10px;}
 
 
