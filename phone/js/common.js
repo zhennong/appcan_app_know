@@ -1,3 +1,5 @@
+/* global uexWindow, appcan */
+
 var Tools = {
 
     //纯静态tab切换
@@ -52,8 +54,7 @@ var Tools = {
     getUserId: function(){
 	var userid = appcan.locStorage.getVal('userid');   
 	if(userid == null){
-	    alert('对不起，你还没有登录！');
-	    location.href = './login.html';
+	    uexWindow.open('login',0,'login.html',1,0,0,0,500);
 	}
     },
     
@@ -73,13 +74,29 @@ var Tools = {
      * @returns {undefined}
      */
     logout: function(){
-	var userid = appcan.locStorage.getVal('userid');   
+	var userid = appcan.locStorage.getVal('userid');   	
 	if(userid != null){
 	    appcan.locStorage.remove('userid');   
 	    appcan.locStorage.remove('username');   
 	    alert('退出登录成功！');
-	    location.href = './index.html';
+	    uexWindow.open('index',0,'index.html',1,0,0,0,500);
 	}
+    },
+    
+    /**
+     * 打开新链接
+     * @param {string} name
+     * @param {string} url
+     */
+    openUrl: function(name,url){
+	uexWindow.open(name,0,url, 1,0,0,0,500);
+    },
+    
+    /**
+     * 返回上一个页面
+     */    
+    prev: function(){
+	uexWindow.windowBack(1);
     }
     
 }

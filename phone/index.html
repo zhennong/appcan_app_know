@@ -2,9 +2,11 @@
 <html lang="zh-CN">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
 <link type="text/css" rel="stylesheet" href="css/main.css" />
 <script src="js/wap_jquery.js" type="text/javascript"></script>
+<script src="js/appcan.js" type="text/javascript"></script>
+<script src="js/common.js" type="text/javascript"></script>
 </head>
 <body>
 	<div class="box">
@@ -48,9 +50,9 @@
          <div class="foot">
             <div class="footer">
                 <ul>
-                    <li><a href="./index.html"><img alt="首页" src="image/main_on.png"></a></li>
-                    <li><a href="./questions_index.html"><img src="image/answer.png"></a></li>   
-                    <li><a href="./member.html"><img src="image/mine.png"></a></li>
+                    <li><a href="javascript:void(0)" onclick="Tools.openUrl('home','index.html')"><img alt="首页" src="image/main_on.png"></a></li>
+                    <li><a href="javascript:void(0)" onclick="Tools.openUrl('questions','questions_index.html')"><img src="image/answer.png"></a></li>   
+                    <li><a href="javascript:void(0)" onclick="Tools.openUrl('member','member.html')"><img src="image/mine.png"></a></li>
                 </ul>
             </div>
         </div>
